@@ -17,6 +17,8 @@ think about whenever the user has input, how we can sanitize all forms of input 
 any issues that come up from data that they're trying to monitor. It makes trying to dissect the data easy on the eyes also and makes for an efficient usage of their time when trying
 to resolve issues.
 
+Python 3.4 was used for the coding questions.
+
 4.) See flatten_array.py.
 
 test_flatten_array.py runs the test cases for flatten_array.py.
