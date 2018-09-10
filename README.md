@@ -21,8 +21,10 @@ to resolve issues.
 
 test_flatten_array.py runs the test cases for flatten_array.py.
 
-5.) See timeseries.py; running "python timeseries.py" will print out the statistics of the data points within timeseries.csv.
+5.) See timeseries.py; running "python timeseries.py" will print out the statistics of the data points within timeseries.csv. 
 
+The intervals for the buckets start at a 5 minute increment from the hour. e.g. 19:40:00.000 to 19:44:59.999 would be an interval, and the next interval
+would be from 19:45:00.000 to 19:59:59.000
 test_timeseries.py runs the test cases for timeseries.py. Included are extra .csv files for testing (empty_test.csv and test_timeseries.csv) that are used in test_timeseries.py.
 
 To run the unit tests in 4.) and 5.), run "python <name of unittest file>".
