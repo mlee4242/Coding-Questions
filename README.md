@@ -16,3 +16,13 @@ think about whenever the user has input, how we can sanitize all forms of input 
 3.) I really like the dashboard feature of the product because in the perspective of the user, it's an incredibly helpful feature to able to not only visualize data, but to quickly recognize
 any issues that come up from data that they're trying to monitor. It makes trying to dissect the data easy on the eyes also and makes for an efficient usage of their time when trying
 to resolve issues.
+
+4.) See flatten_array.py.
+
+test_flatten_array.py runs the test cases for flatten_array.py.
+
+5.) See timeseries.py; running "python timeseries.py" will print out the statistics of the data points within timeseries.csv.
+
+test_timeseries.py runs the test cases for timeseries.py. Included are extra .csv files for testing (empty_test.csv and test_timeseries.csv) that are used in test_timeseries.py.
+
+To run the unit tests in 4.) and 5.), run "python <name of unittest file>".
