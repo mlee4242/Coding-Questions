@@ -27,4 +27,4 @@ The intervals for the buckets start at a 5 minute increment from the hour. e.g. 
 would be from 19:45:00.000 to 19:59:59.000
 test_timeseries.py runs the test cases for timeseries.py. Included are extra .csv files for testing (empty_test.csv and test_timeseries.csv) that are used in test_timeseries.py.
 
-To run the unit tests in 4.) and 5.), run "python <name of unittest file>".
+To run the unit tests in 4.) and 5.), run "python 'name of unittest file' ".
